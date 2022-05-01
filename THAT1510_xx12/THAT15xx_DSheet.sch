@@ -8626,7 +8626,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+12V" device=""/>
 <part name="GND7" library="supply pins" deviceset="GND" device=""/>
 <part name="GND8" library="supply pins" deviceset="GND" device=""/>
-<part name="GAIN" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="B10k"/>
+<part name="GAIN" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="B1K"/>
 <part name="C6" library="MusicThingModular" deviceset="CAP_SMD+THRU" device="PAN_C" value="Cg"/>
 <part name="GND9" library="supply pins" deviceset="GND" device=""/>
 <part name="VOL" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="A10k"/>
@@ -8637,12 +8637,10 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <sheets>
 <sheet>
 <plain>
-<text x="34.036" y="58.928" size="1.27" layer="97">Varies with Gain Setting.
-Safe bet?
-6800uF for the 1512
-&amp; 3300uF for the 1510.
-Way we'll play it?
-470uF probs...</text>
+<text x="34.036" y="58.928" size="1.27" layer="97">Filter varies with
+gain setting.
+Datasheet recommends
+3300uF.</text>
 </plain>
 <instances>
 <instance part="PAD1" gate="G$1" x="2.54" y="60.96" smashed="yes" rot="R180">
